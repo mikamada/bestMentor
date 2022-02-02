@@ -1,0 +1,202 @@
+body {
+  background-color: #273952;
+  font-family: "Poppins", sans-serif;
+}
+.hr-nav {
+  background-color: #7a8ea8;
+  width: 85%;
+  margin: auto;
+}
+/* navbar */
+.navbar {
+  margin-bottom: 30px;
+}
+
+.navbar ul {
+  margin: auto !important;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.navbar .btn-secondary {
+  background-color: transparent;
+  width: 110px;
+  height: 44px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+
+.navbar .btn-success {
+  height: 46px;
+  width: 110px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* end navbar */
+
+/* hero */
+#hero {
+  min-height: auto;
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 60px;
+}
+
+#hero h1 span {
+  color: #7166ff;
+}
+
+#hero .btn-get {
+  height: 58px;
+  width: 158px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+#hero .btn-watch {
+  height: 61px;
+  width: 217px;
+  border-color: 1px solid #5d6e75;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #5d6e75;
+  font-weight: 300;
+}
+
+#hero .button {
+  margin-top: 80px;
+}
+
+#hero .banner {
+  top: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 96px;
+  z-index: 1;
+  height: 570;
+}
+
+#hero .frame {
+  position: absolute;
+  margin-top: 100px;
+  right: 0;
+  bottom: 0;
+  top: 135.188px;
+}
+
+#hero div.col-banner {
+  top: 50px !important;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#hero div.card {
+  position: absolute;
+  top: 325px;
+  right: 380px;
+  z-index: 2;
+  color: #273952;
+  width: 230px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#hero div.card h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 13px;
+  margin-left: auto;
+}
+
+#hero div.card p {
+  font-size: 12px;
+  font-weight: 300;
+  color: gray;
+}
+
+#hero .col-5 .follower {
+  color: #7166ff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#hero .col-7 .review {
+  color: #7166ff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#hero .card .btn-hire {
+  height: 50px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+/* end hero */
+
+/* benefit */
+
+#benefit {
+  margin-top: 114px;
+  padding: 90px 0 90px 0;
+  align-items: flex-start !important;
+  color: #fff;
+  background-color: black;
+  min-height: auto;
+}
+
+/* #benefit .keys {
+  margin-top: 100px;
+} */
+
+#benefit .sub-key {
+  margin-top: 50px;
+}
+
+#benefit .banner {
+  text-align: left !important;
+  margin-top: 100px;
+  height: 500px;
+  width: 602px;
+  display: block;
+}
+
+#benefit .no {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  background-color: #7166ff;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#benefit .btn-learn {
+  height: 56px;
+  width: 173px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+/* end benefit */
