@@ -202,6 +202,48 @@ body {
 /* end benefit */
 
 /* pricing */
+
+#pricing .card {
+  padding: 32px 42px 32px 42px;
+  border: 1px solid #292d31;
+  background-color: transparent;
+  border-radius: 20px;
+  min-height: 200px;
+  width: 295px;
+}
+
+#pricing .card .price {
+  color: #febc2c;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+#pricing .card .month {
+  font-size: 16px;
+}
+
+#pricing .card .checklist .check {
+  color: #fff;
+}
+
+#pricing .card .unchecklist .uncheck {
+  color: #536f7e;
+}
+
+#pricing .card .btn-card {
+  height: 54px;
+  width: 205px;
+  background-color: transparent;
+  border: 1px solid #febc2c;
+  color: #febc2c;
+  border-radius: 13px;
+}
+
+#pricing .card .btn-card:hover {
+  color: #594415;
+  background-color: #febc2c;
+}
+
 #pricing {
   min-height: 700px;
   background-color: black;
